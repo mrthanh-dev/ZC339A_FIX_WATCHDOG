@@ -1,0 +1,13 @@
+[Unit]
+Description=ZC339A Hardware Watchdog Feeder & LED Controller
+DefaultDependencies=no
+Before=basic.target shutdown.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/zc339a-feed.py
+Restart=always
+RestartSec=1s
+
+[Install]
+WantedBy=basic.target

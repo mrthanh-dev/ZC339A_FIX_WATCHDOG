@@ -1,0 +1,12 @@
+[Unit]
+Description=ZC339A Uptime Logger (Logs every minute)
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/zc339a-uptime-logger.sh
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
