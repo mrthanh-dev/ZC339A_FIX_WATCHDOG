@@ -145,6 +145,7 @@ ZC339A_FIX/
 ??? README.md                  # Tài liệu hướng dẫn kỹ thuật chi tiết
 ??? install.sh                 # Script cài đặt tự động toàn bộ bản fix
 ??? install_to_emmc.sh         # Script cài đặt / clone Ubuntu sang eMMC
+??? build_image.sh             # Script tạo file ảnh đĩa ubuntu-zc339a.img bootable
 ??? patch_dtb.sh               # Script tự động patch Device Tree PMU
 ??? zc339a-feed.py             # Daemon nuôi Watchdog và điều khiển LED RUN
 ??? zc339a-watchdog.service    # Systemd service cho Watchdog Daemon
