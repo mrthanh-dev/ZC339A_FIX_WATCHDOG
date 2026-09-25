@@ -153,5 +153,7 @@ ZC339A_FIX/
 ??? zc339a-uptime.service      # Systemd service ghi log uptime
 ```
 
+## 7. Cài đặt Ubuntu từ thẻ SD không cần fix:
+Tải về và ghi img vào thẻ SD qua BalenaEtcher, link tải: https://mega.nz/file/25ZmgB4a#8aF7o2d4-ohriRbuM0s4P5MBVMq9vcR2Rykcr379UKg
 ## Bản Quyền & Giấy Phép
 Dự án được cung cấp theo giấy phép MIT. Mã nguồn mở phục vụ cộng đồng phát triển nhúng Rockchip RK3399.
